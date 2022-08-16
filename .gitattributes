@@ -1,4 +1,10 @@
+# The lock file is always generated.
 package-lock.json -diff -merge
 package-lock.json linguist-generated
+
+# Since we are dealing with Typescript projects, any js files would most likely be generated ones.
 *.js -diff -merge
 *.js linguist-generated
+
+# Mark all project templates as vendored.
+templates/* linguist-vendored
