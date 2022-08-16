@@ -1,0 +1,13 @@
+{
+	"deps": [
+		"discord.js",
+		"dotenv",
+		"luxon",
+		"tslib"
+	],
+	"dev": [
+		"@types/luxon",
+		"@types/node",
+		"typescript"
+	]
+}

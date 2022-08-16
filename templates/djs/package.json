@@ -1,0 +1,26 @@
+{
+	"name": "djs-bot",
+	"version": "1.0.0",
+	"description": "Discord.js v14 bot template.",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "tsc && node ."
+	},
+	"author": {
+		"name": "Riday ♡",
+		"email": "iam@riday.me",
+		"url": "https://riday.me/"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "*",
+		"dotenv": "*",
+		"luxon": "*",
+		"tslib": "*"
+	},
+	"devDependencies": {
+		"@types/luxon": "*",
+		"@types/node": "*",
+		"typescript": "*"
+	}
+}
