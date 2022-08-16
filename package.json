@@ -1,0 +1,31 @@
+{
+	"name": "project-generator",
+	"version": "1.0.0",
+	"description": "A project generator that will generate projects using templates.",
+	"main": "dist/index.js",
+	"type": "module",
+	"bin": {
+		"generate": "dist/index.js"
+	},
+	"scripts": {
+		"test": "tsc && node ."
+	},
+	"author": {
+		"name": "Riday ♡",
+		"email": "iam@riday.me",
+		"url": "https://riday.me"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"inquirer": "^9.1.0",
+		"ora": "^6.1.2",
+		"shelljs": "^0.8.5",
+		"tslib": "^2.4.0"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^9.0.0",
+		"@types/node": "^18.7.2",
+		"@types/shelljs": "^0.8.11",
+		"typescript": "^4.7.4"
+	}
+}
