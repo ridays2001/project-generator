@@ -1,0 +1,4 @@
+package-lock.json -diff -merge
+package-lock.json linguist-generated
+*.js -diff -merge
+*.js linguist-generated
